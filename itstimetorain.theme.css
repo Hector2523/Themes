@@ -1,5 +1,5 @@
 /**
-* @name I'ts time to rain
+* @name It's time to rain
 * @author Hector
 * @version 1.0
 * @description Fácil de ser customizado
@@ -17,6 +17,10 @@
 
 
   --theme-transparency: rgba(0, 0, 0, 0.8);
+
+  --bg-overlay-chat: rgba(0, 0, 0, 0.04);
+
+  --bg-overlay-1: rgba(0, 0, 0, 0.03);
 
 
   --home-icon-image: url(https://media4.giphy.com/media/ZyFCksxxD9tmLYfGJo/giphy.gif?cid=6c09b952cpi22gzler4rbff1nugg2jaefzrfhfdy3wdrfv0j&ep=v1_gifs_search&rid=giphy.gif&ct=g);
@@ -182,10 +186,10 @@
 }
 
 
-.app-mount {
-  background-image: url(https://i.imgur.com/orJWLhG.jpg);
-  background-position: center bottom;
-  background-size: cover;
+.appMount-2yBXZl {
+  background-image: var(--theme-background-image) !important;
+  background-size: 100% !important;
+  background-position: center center !important;
 }
 
 .container-1zzFcN button {
@@ -204,46 +208,54 @@
   transition-duration: 0.5s;
 }
 
-.content-yjf30S li, .content-yjf30S div {
+.content-yjf30S li,
+.content-yjf30S div {
   transition-duration: 0.5s;
 }
 
 .tutorialContainer-1pL9QS .childWrapper-1j_1ub {
-    background: var(--home-icon-image)!important;
-    background-position: var(--home-icon-image-position)!important;
-    background-repeat: no-repeat!important;
-    background-size: var(--home-icon-image-zoom)!important;
-    animation: nofilter .5s ease-in-out forwards;
+  background: var(--home-icon-image) !important;
+  background-position: var(--home-icon-image-position) !important;
+  background-repeat: no-repeat !important;
+  background-size: var(--home-icon-image-zoom) !important;
+  animation: nofilter .5s ease-in-out forwards;
 }
 
 .tutorialContainer-1pL9QS .childWrapper-1j_1ub:hover {
-    animation: filter .5s ease-in-out forwards;
+  animation: filter .5s ease-in-out forwards;
 }
 
 @keyframes filter {
-    from {
-        filter: grayscale(100%);
-        border-radius: 50%;
-    }
+  from {
+    filter: grayscale(100%);
+    border-radius: 50%;
+  }
 
-    to {
-        border-radius: 20px;
-        filter: grayscale(0%);
-    }
+  to {
+    border-radius: 20px;
+    filter: grayscale(0%);
+  }
 }
 
 @keyframes nofilter {
-    from {
-        filter: grayscale(0%);
-        border-radius: 20px;
-    }
+  from {
+    filter: grayscale(0%);
+    border-radius: 20px;
+  }
 
-    to {
-        border-radius: 50%;
-        filter: grayscale(100%);
-    }
+  to {
+    border-radius: 50%;
+    filter: grayscale(100%);
+  }
 }
 
 .wrapper-1_HaEi {
   margin-right: 15px;
 }
+
+.container-1CH86i  {
+  box-shadow: 5px 5px 0px black;
+}
+
+/* perfis */
+
