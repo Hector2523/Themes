@@ -22,6 +22,8 @@
 
   --bg-overlay-1: rgba(0, 0, 0, 0.03);
 
+  --background-secondary-alt: transparent;
+
 
   --home-icon-image: url(https://media4.giphy.com/media/ZyFCksxxD9tmLYfGJo/giphy.gif?cid=6c09b952cpi22gzler4rbff1nugg2jaefzrfhfdy3wdrfv0j&ep=v1_gifs_search&rid=giphy.gif&ct=g);
 
@@ -185,6 +187,9 @@
   padding: 0px;
 }
 
+.container-2NLBJg {
+  background: transparent;
+}
 
 .appMount-2yBXZl {
   background-image: var(--theme-background-image) !important;
