@@ -1,7 +1,7 @@
 /**
 * @name It's time to rain
 * @author Hector
-* @version 2.0
+* @version 3.0
 * @description Fácil de ser customizado
 */
 
@@ -316,11 +316,6 @@
   
   /* perfis */
   
-.userPanelInner_eddf4c, .userPanelInner_eddf4c::before {
-  background-color: transparent;
-}
-
-
-.userPanelOuter__880e5 {
+.userPanelInner_eddf4c, .userPanelInner_eddf4c::before, .userPanelOuter__880e5,.theme-dark .themed_fc4f04 {
   background-color: transparent;
 }
