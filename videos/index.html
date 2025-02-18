@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+</head>
+<body>
+    <h1>Only to hospedate</h1>
+    <div class="video-player">
+        <video id="myVideo">
+            <source id="videoSource" src="Rain Anime School Girl/Rain Anime School Girl 4k remake.mp4" type="video/mp4">
+            Seu navegador não suporta a tag de vídeo.
+        </video>
+        
+        <div class="quality-selector">
+            <button onclick="changeQuality('Rain Anime School Girl/Rain Anime School Girl 4k remake.mp4', 'video/mp4')">4K Ultra HD</button>
+            <button onclick="changeQuality('Rain Anime School Girl/Rain Anime School Girl 2k remake.mp4', 'video/mp4')">2K Quad HD</button>
+            <button onclick="changeQuality('Rain Anime School Girl/Rain Anime School Girl FHD remake.mp4', 'video/mp4')">Full HD</button>
+        </div>
+    </div>
+    <script>
+    function changeQuality(videoUrl, mimeType) {
+        const video = document.getElementById('myVideo');
+        const source = document.getElementById('videoSource');
+        
+        source.src = videoUrl;
+        source.type = mimeType;
+        
+        video.load();
+        video.play();
+    }
+    </script>
+</body>
+</html>
